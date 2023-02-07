@@ -66,7 +66,7 @@ export default function Home() {
           </article>
           <footer className={styles.rodape}>
             <p>
-              Todos os direitos reservados - GFR Viagens | Desenvolvido por <a href="https://velance.com.br/" target="_blank">Velance</a>
+              Todos os direitos reservados - GFR Viagens | Desenvolvido por <a href="https://velance.com.br/">Velance</a>
             </p>
           </footer>
         </div>
