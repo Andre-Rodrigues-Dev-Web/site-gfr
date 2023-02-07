@@ -1,0 +1,19 @@
+.navbar{
+    padding: 12px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.containerMenu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo img{
+    width: 40%;
+}
+@media(min-width: 768px){
+    .logo img{
+        width: 180px;
+    }
+}
