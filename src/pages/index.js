@@ -30,7 +30,7 @@ export default function Home() {
         <meta name="description" content="Descubra o mundo com a Agência de Viagens GFR. Oferecemos pacotes de viagem personalizados com acomodações de luxo e experiências únicas. Reserve agora sua próxima aventura." />
         <meta name="keywords" content="Agência de Viagens, viagens, viagens personalizadas, pacotes de viagem, acomodações de luxo, experiências únicas, viagens ao redor do mundo, reservas de viagem"/>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="image/icon" href="/imgs/logo.jpg" />
       </Head>
       <section className={styles.wrap}>
         <div className={styles.overlay}>
