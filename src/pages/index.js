@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import moment from 'moment';
 import Head from 'next/head'
+import Image from 'next/image'
 import styleGrids from '@/styles/Grids.module.css'
 import styleMenu from '@/styles/Menu.module.css'
 import styles from '@/styles/Home.module.css'
@@ -36,7 +37,12 @@ export default function Home() {
           <nav className={styleMenu.navbar}>
             <div className={styleMenu.containerMenu}>
               <div className={styleMenu.logo}>
-                <img src="/imgs/logo-clean.png" alt="Logo GFR Viagens" />
+                <Image 
+                  src="/imgs/logo-clean.png" 
+                  alt="Logo GFR Viagens"
+                  width={180}
+                  height={180}
+                />
               </div>
             </div>  
           </nav>  
