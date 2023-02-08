@@ -10,7 +10,7 @@
     justify-content: center;
 }
 .logo img{
-    width: 40%;
+    width: 80%;
 }
 @media(min-width: 768px){
     .logo img{

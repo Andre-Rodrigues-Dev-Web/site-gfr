@@ -16,22 +16,33 @@
   color: #fff;
   font-size: 2.5rem;
   margin: 0 auto;
+  padding-top: 10rem;
   text-align: center;
+  width: 100%;
 }
 .content_text1 h1{
-  font-size: 3.5rem;
+  font-size: 25px;
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 1rem;
   text-transform: uppercase;
 }
+.content_text1 p{
+  font-size: 16px;
+  font-weight: 600;
+}
 .content_time{
   color: #fff;
   display: flex;
+  align-items: center;
+  flex-direction: column;
   justify-content: center;
-  gap: 10px;
+  gap: 20px;
+  margin-top: 2rem;
 }
 .content_time p{
+  display: flex;
+  align-items: center;
   font-size: 1.6rem;
   font-weight: 800;
   line-height: 1.2;
@@ -54,6 +65,7 @@
     margin-bottom: 1rem;
   }
   .content_time{
+    flex-direction: row;
     gap: 30px;
     margin-top: 4rem;
   }
@@ -73,7 +85,7 @@
   color: #fff;
   display: flex;
   justify-content: center;
-  margin-top: 4rem;
+  margin-top: 2rem;
   padding: 1rem 0;
 }
 .rodape p{
