@@ -5,6 +5,7 @@
   font-size: 100%;
   line-height: 1.5;
   margin: 0;
+  overflow-x: hidden;
   padding: 0;
 }
 a, a:hover{
