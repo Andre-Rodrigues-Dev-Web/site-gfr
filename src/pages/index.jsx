@@ -10,6 +10,7 @@ import Footer from '@/Components/Footer';
 //Mock
 const travelPackages = [
   {
+    id: 1,
     title: 'Viagem para o Rio de Janeiro',
     description: 'Aproveite as belezas do Rio de Janeiro com essa incrível viagem.',
     price: 'R$ 2.000',
@@ -20,6 +21,7 @@ const travelPackages = [
     transport: 'Aéreo'
   },
   {
+    id: 2,
     title: 'Viagem para Nova York',
     description: 'Conheça a cidade que nunca dorme com essa viagem incrível.',
     price: 'R$ 4.500',
@@ -30,6 +32,7 @@ const travelPackages = [
     transport: 'Aéreo'
   },
   {
+    id: 2,
     title: 'Viagem para Cancún',
     description: 'Aproveite as belas praias de Cancún com essa viagem incrível.',
     price: 'R$ 3.500',
@@ -40,6 +43,7 @@ const travelPackages = [
     transport: 'Aéreo + Terrestre'
   },
   {
+    id: 3,
     title: 'Viagem para Paris',
     description: 'Conheça a cidade luz com essa viagem incrível.',
     price: 'R$ 5.000',
@@ -50,6 +54,7 @@ const travelPackages = [
     transport: 'Aéreo'
   },
   {
+    id: 4,
     title: 'Viagem para Roma',
     description: 'Conheça a cidade eterna com essa viagem incrível.',
     price: 'R$ 5.000',
