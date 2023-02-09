@@ -4,7 +4,9 @@ import Menu from '../Components/Menu';
 import { Content, Row } from '../Components/Containers/style';
 import Button from '../Components/Buttons';
 import TravelCard from '../Components/Cards';
-
+import Carousel from '@/Components/Carousel';
+import Title from '@/Components/Title';
+import Footer from '@/Components/Footer';
 //Mock
 const travelPackages = [
   {
@@ -36,7 +38,27 @@ const travelPackages = [
     departure: 'São Paulo',
     rating: '4.2',
     transport: 'Aéreo + Terrestre'
-  }
+  },
+  {
+    title: 'Viagem para Paris',
+    description: 'Conheça a cidade luz com essa viagem incrível.',
+    price: 'R$ 5.000',
+    imageUrl: 'https://www.viajenaviagem.com/wp-content/uploads/2018/03/paris-1.jpg',
+    duration: '10',
+    departure: 'Rio de Janeiro',
+    rating: '4.9',
+    transport: 'Aéreo'
+  },
+  {
+    title: 'Viagem para Roma',
+    description: 'Conheça a cidade eterna com essa viagem incrível.',
+    price: 'R$ 5.000',
+    imageUrl: 'https://www.viajenaviagem.com/wp-content/uploads/2018/03/paris-1.jpg',
+    duration: '10',
+    departure: 'Rio de Janeiro',
+    rating: '4.9',
+    transport: 'Aéreo'
+  },
 ];
 
 const Home = () => {
@@ -58,12 +80,15 @@ const Home = () => {
         >
           Clique aqui
         </Button>  */}
+        <Carousel/>
+        <Title>Pacotes de viagem</Title>
         <Row>
           {travelPackages.map((travelPackage, index) => (
             <TravelCard key={index} {...travelPackage} />
           ))}
         </Row>
       </Content>
+      <Footer/>
     </>
   )
 }
